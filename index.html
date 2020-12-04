@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo list</title>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Todo list</h1>
+      <form class="search">
+        <input
+          type="search"
+          name="search"
+          id="search"
+          placeholder="Text here..."
+          autocomplete="off"
+        />
+      </form>
+
+      <ul class="todos">
+        <li class="todo">
+          <span>Buy a new car</span><i class="bx bx-trash"></i>
+        </li>
+        <li class="todo">Wash a car<i class="bx bx-trash"></i></li>
+        <li class="todo">fight to stay here<i class="bx bx-trash"></i></li>
+      </ul>
+
+      <form class="add">
+        <label for="add-todo">Add todo list</label>
+        <input
+          type="text"
+          name="work"
+          id="work"
+          placeholder="Put your todo here.."
+          autocomplete="off"
+        />
+      </form>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
