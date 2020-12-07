@@ -67,7 +67,12 @@ input {
   width: 100%;
   margin: 0.8rem 0;
   padding: 1rem 0;
+  border: none;
   border: 1px solid rgb(40, 178, 202);
   outline: none;
   border-radius: 5px;
+}
+
+.filtered {
+  display: none;
 }
