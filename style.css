@@ -19,6 +19,7 @@ body {
   background-color: rgb(196, 165, 224);
 
   display: flex;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
 }
